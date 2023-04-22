@@ -1,0 +1,148 @@
+/* :root {
+    color-scheme: dark;
+} */
+h1{
+    font-family: 'roboto',sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    color: green;
+}
+.robot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 15px solid green;
+    padding: 0 auto;
+    margin-left: 290px;
+    margin-right: 300px;
+    margin-top: 20px; */
+}
+.head,.body,.left-arm,.right-arm,.right-leg,.left-leg{
+    background-color: #f54bd0;
+}
+.right-eye,.left-eye{
+    background-color: white;
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    position: relative;
+    top: 100px;
+}
+.head{
+    width: 200px;
+    height: 150px;
+    border-radius: 150px 150px 0 0;
+}
+.eyes{
+    display: flex;
+    /* flex-wrap: wrap;
+    justify-content: center; */
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.right-eye{
+    left: 55px;
+}
+.left-eye {
+    left: 115px;
+}
+.upper-body{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.body{
+    width: 200px;
+    height: 250px;
+    border-radius: 0 0 70px 70px;
+    margin-top: 10px;
+}   
+.right-arm,.left-arm{
+    width: 40px;
+    height: 170px;
+    border-radius: 40px;
+    position: relative;
+}
+.left-arm{
+    left: 7px;
+    top: -160px;
+}
+.right-arm {
+    right: 247px;
+    top: 10px;
+}
+.lower-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-leg,.right-leg{
+    width: 50px;
+    height: 130px;
+    border-radius: 80px;
+    position: relative;
+    transition: all 1s;
+}
+.right-leg{
+    left: 30px;
+    top: -110px;
+}
+.left-leg {
+    left: 70px;
+    top: -110px;
+}
+.right-leg:hover {
+    rotate: 20deg;
+}
+.left-leg:hover{
+    rotate: -20deg;
+}
+.android{
+    transition: all 1s;
+}
+/* .android:hover{
+    transform: scale(0.7);
+} */
+.head:hover {
+    width: 250px;
+    transition: 1s ease-in-out;
+
+}
+/* .upper-body:hover{
+    right-arm(
+        transition: rotate: (45deg);
+    )
+    legt-arm(
+        transition: rotate: (-45deg);
+        )
+} */
+.right-arm:hover{
+    transform: rotate(20deg);
+    transition: all 2s;
+}
+.left-arm:hover {
+    transform: rotate(-20deg);
+    transition: all 2s;
+}
+.head{
+    justify-content: left;
+    left: 800px;
+}
+.smile{
+    background-color: gold;
+    width: 150px;
+    height: 10px;
+    border-radius: 10px;
+    left: 23px;
+    top: 20px;
+    position: relative;
+}
+.smile:hover{
+    transition: all 2s;
+    height: 75px;
+    border-radius: 0 0 75px 75px;
+}
+/* .right-eye,.left-eye:hover{
+    transition: all 1s;
+    transform: scale(1.5)
+} */

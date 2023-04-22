@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <a href="home.html">HOME</a>
+    
+</head>
+
+<body>
+    <br><br>
+    <!-- use post not GET -->
+    <form action="../../4. HTML5/practise/index.html" method="">
+        first name: <input type="text" name="fname" autocomplete="off"><br><br>
+        last name: <input type="text" name="lname" disabled placeholder="نام خانوادگی"><br><br>
+        E-mail: <input type="email" name="email" id="" required><br><br>
+        password: <input type="password" name="pass" id="" required minlength="7"><br><br>
+        <!-- required=necessary -->
+        birthday: <input type="date" name="birthday" id="tavalod"><br><br>
+
+        <!--  در فرم درست کردن، طبقه بندی گزینه ها با نام هست و اتریبیوت والیو برای اسم گزینه انتخاب شده ست-->
+        gender <br>
+            <input type="radio" name="gender" id="" value="male"> male<br>
+            <input type="radio" name="gender" id="" value="female">female<br><br><br>
+
+        pet: <br>
+            dog <input type="checkbox" name="pet" value="dog"><br>
+            cat <input type="checkbox" name="pet" value="cat"><br>
+            duck <input type="checkbox" name="pet" value="duck"><br>
+            lion <input type="checkbox" name="pet" value="lion"><br><br>
+
+        لطفا فایل خود را آپلود کنید: <input type="file" accept=".mkv,.mp4"><br><br>
+        <!-- choose favorite color: <input type="color" name="" id=""><br><br> -->
+        <!-- تاریخ و ساعت قرار خود را وارد کنید<input type="datetime-local" name="" id=""><br><br> -->
+        لطفا رنج قیمتی مد نظرتون رو مشخص کنید<input type="range" name="" id=""><br><br>
+        
+        Cars: <br>
+        <select name="Cars" id="">
+            <option value="pride" name="pride">پراید</option>
+            <option value="samand" name="samand">سمند</option>
+            <option value="nissan" name="nissan">نیسان</option>
+            <option value="pegue" name="pegue">پژو</option>
+
+        </select><br><br>
+        <input type="button" value="دکمه"><br><br><br>
+        <input type="submit" value="register">
+        <input type="reset" name="" id="">
+
+    </form>
+</body>
+
+</html>

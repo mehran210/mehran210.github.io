@@ -1,0 +1,74 @@
+body{
+    /* background-image: url(02.jpg);
+    background-size: cover; */
+    background-color: bisque;
+}
+li {
+    border: 3px solid red;
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+}
+section{
+    background-color: brown;
+    border: 8px solid yellow;
+}
+h2{
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+span{
+    background-color: yellowgreen;
+}
+.web{
+    border: 5px dotted rgb(38, 140, 223);
+}
+.website:hover{
+    border: 5px dashed darkgoldenrod;
+    cursor: pointer;
+}
+.web,.website{
+    text-align: center;
+}
+#div1{
+    font-size: 20px;
+    font-family: 'Gulzar', 'Noto Nastaliq Urdu','Roboto', serif, sans-serif;
+}
+
+/* h2 p{
+    تگ های پی که داخل اچ 2 قرار گرفته اند
+} */
+/* h2 + p{
+    تگ های پی که دقیقا بعد بسته شدن تگ اچ 2 قرار گرفته اند
+} */
+.m3 + p{
+    text-decoration: underline;
+    line-height: 40px;
+}
+.m3 + p + p{
+    text-decoration: line-through;
+}
+.m1{
+    text-transform: uppercase;
+    /* text-transform: lowercase; */
+}
+.m3{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+}
+h3{
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+img{
+    float: left;
+    height: 150px;
+    width: 250px;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+    clear: both;
+    /* کد کلیر کمک میکنه تا عکس بزرگ فوتر رو بهم نریزه */
+}
